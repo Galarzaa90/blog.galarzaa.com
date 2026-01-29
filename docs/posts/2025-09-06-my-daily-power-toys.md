@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-![PowerToys Home Screen](../../assets/images/blog/2025-09-06/powertoys.png)
+![PowerToys Home Screen](../assets/images/blog/2025-09-06/powertoys.png)
 
 /// caption
 Maybe because it can be a bit overwhelming at first...
@@ -28,7 +28,7 @@ For this post I'm going to talk about my favorite tools, so maybe you want to tr
 
 I have never owned a Mac, I grew up with Windows 95 at home and I have stuck to it, except for Ubuntu, which is usually what I install on my laptops when they are too old and Windows starts being annoying. However, at my previous job, I was provided with a MacBook. One of the things I enjoyed from it was the Spotlight feature (++cmd+space++). So when I saw that Power Toys had a similar tool, I gave it a try.
 
-![PowerToys Run](../../assets/images/blog/2025-09-06/powertoys_run.png)
+![PowerToys Run](../assets/images/blog/2025-09-06/powertoys_run.png)
 
 /// caption
 Definitely not as pretty as Spotlight... but still very handy.
@@ -38,7 +38,7 @@ The default shortcut is ++ctrl+space++, and you can start typing immediately. I 
 
 The way this works is by using plugins. It comes with plenty of bundled plugins, and for each of them, you can decide whether you want it to be included in global results or require an activation command. For example, the activation command for **Windows Settings** is `$`, and it is not set to **Include in global results**, so I need to put `$` at the beginning in order to show results from this plugin.
 
-![PowerToys Run](../../assets/images/blog/2025-09-06/powertoys_run_settings.png)
+![PowerToys Run](../assets/images/blog/2025-09-06/powertoys_run_settings.png)
 
 This way you can select which plugins always show results and which one require explicit intent, so you don't end up with way too many results. For example, I have the **Calculator** plugin included in results, so I can just type `5+5` and get the answer. I can then press ++enter++ to copy the result to the clipboard.
 
@@ -66,7 +66,7 @@ This one is one of my favorites! Have you ever needed a long, important number f
 
 Pressing ++win+shift+c++ will show an overlay on your cursor with the hex color of that pixel on your screen.
 
-![Color Picker](../../assets/images/blog/2025-09-06/powertoys_color.png)
+![Color Picker](../assets/images/blog/2025-09-06/powertoys_color.png)
 
 /// caption
 Pick your color!
@@ -90,7 +90,7 @@ It is one of those features that are so useful, but you never remember you have 
 
 This one is another of my daily drivers. I have two monitors, stacked vertically. The bottom one is my main screen and the top one is used for "reference", like work chat, background YouTube videos, documentation, etc. Fancy Zones lets you create layouts that you can drag windows into.
 
-![Fancy Zones](../../assets/images/blog/2025-09-06/powertoys_fancy_zones.png)
+![Fancy Zones](../assets/images/blog/2025-09-06/powertoys_fancy_zones.png)
 
 /// caption
 It comes with some templates and you can create your own.

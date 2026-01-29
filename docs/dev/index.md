@@ -1,3 +1,0 @@
-# Development
-
-Notes about development.

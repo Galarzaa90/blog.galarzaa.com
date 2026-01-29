@@ -18,7 +18,7 @@ My wife has been streaming on **Twitch** for some months. She mostly streams [Po
 
 We had been trying to figure out what was the issue, other devices consuming the bandwidth? Looking at the network usage, I saw nothing that would indicate so.
 
-![our home network's bandwidth while streaming](../../assets/images/blog/2025-08-01/network_use.png)
+![our home network's bandwidth while streaming](../assets/images/blog/2025-08-01/network_use.png)
 
 /// caption
 Given that our available bandwidth is symmetrical 700 Mbps, I didn't think that was the problem.
@@ -44,7 +44,7 @@ The change was a bit harder on some IoT devices, like lightbulbs, because they c
 
 The first step was to again split the WiFi network into separate SSIDs for each band. I dusted off my old laptop and opened my cable drawer to get one of the many ethernet cables. I did the change, and just for fun, I ran speedtest while I was connected to the router through ethernet to see what I was missing.
 
-![One day... one day...](../../assets/images/blog/2025-08-01/wolverine.png)
+![One day... one day...](../assets/images/blog/2025-08-01/wolverine.png)
 
 /// caption
 Sometimes I just sit and think about what could've been...

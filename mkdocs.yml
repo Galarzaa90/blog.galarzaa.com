@@ -1,10 +1,10 @@
-site_name: Galarzaa's Docs
-site_description: Personal collection of snippets and miscellaneous documentation.
+site_name: Galarzaa's Blog
+site_description: Personal blog about my hobbies, projects and rants.
 site_author: Allan Galarza
-site_url: https://docs.galarzaa.com
+site_url: https://blog.galarzaa.com
 
-repo_name: Galarzaa90/PersonalDocs
-repo_url: https://github.com/Galarzaa90/PersonalDocs
+repo_name: Galarzaa90/blog.galarzaa.com
+repo_url: https://github.com/Galarzaa90/blog.galarzaa.com
 edit_uri: edit/main/docs/
 
 theme:
@@ -51,14 +51,11 @@ theme:
     repo: fontawesome/brands/github
 
 plugins:
-  - blog
+  - blog:
+     blog_dir: .
   - meta
-  - git-revision-date-localized:
-      enable_creation_date: true
-      exclude:
-        - blog/*
   - git-committers:
-      repository: Galarzaa90/PersonalDocs
+      repository: Galarzaa90/blog.galarzaa.com
       branch: main
   - search
   - social:
@@ -107,24 +104,4 @@ extra:
       link: https://threads.com/@galarzaa90
 
 nav:
-  - Home: 
-    - Home: index.md
-    - Uses: uses.md
-    - System Setup: setup.md
-    - Badges: badges.md
-  - Blog:
-    - Home: blog/index.md
-  - Development:
-    - Bookmarks: dev/bookmarks.md
-    - Editor Extensions & Plugins: dev/extensions.md
-    - Python:
-      - Python: dev/python/index.md
-      - Ruff: dev/python/ruff.md
-    - Windows: dev/windows.md
-    - Linux: dev/linux.md
-    - Misc: dev/misc.md
-  - Projects:
-    - PC Monitoring: projects/monitoring.md
-  
-      
-
+  - Home: index.md
