@@ -3,7 +3,7 @@ site_description: Personal blog about my hobbies, projects and rants.
 site_author: Allan Galarza
 site_url: https://blog.galarzaa.com
 
-repo_name: Galarzaa90/blog.galarzaa.com
+repo_name: GitHub
 repo_url: https://github.com/Galarzaa90/blog.galarzaa.com
 edit_uri: edit/main/docs/
 
@@ -61,7 +61,7 @@ plugins:
   - social:
       enabled: !ENV [CI, false]
   - rss:
-      match_path: blog/posts/.* 
+      match_path: posts/.* 
       date_from_meta:
         as_creation: date
       categories:
