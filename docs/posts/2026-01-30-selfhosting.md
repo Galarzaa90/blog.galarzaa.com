@@ -3,7 +3,8 @@ title: My self-hosting journey
 date: 2026-01-30
 categories:
   - Technology
-  - Development
+tags:
+  - Self-hosting
 links:
   - NabBot: https://nabbot.xyz
 ---
