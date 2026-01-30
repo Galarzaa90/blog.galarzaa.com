@@ -1,4 +1,5 @@
 ---
+title: Networking Beginner vs Nintendo Switch
 date: 2025-08-01
 categories:
   - Technology
@@ -7,7 +8,7 @@ tags:
   - Troubleshooting
   - Networking
 ---
-# Networking Beginner vs Nintendo Switch
+
 Yesterday, I had to change my home WiFi and update all the devices at home to point to the new network. It was a pretty fun experience.
 
 <!-- more -->

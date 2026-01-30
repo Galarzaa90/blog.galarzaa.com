@@ -1,4 +1,5 @@
 ---
+title: My Daily Power Toys
 date: 2025-09-06
 categories:
   - Technology
@@ -6,8 +7,6 @@ tags:
   - Windows
   - Software
 ---
-
-# My Daily Power Toys
 
 [PowerToys](https://github.com/microsoft/PowerToys) is one of those tools that has become a must-have for me in my PC. It constantly makes me wonder... why is this not just built in into Windows?
 
