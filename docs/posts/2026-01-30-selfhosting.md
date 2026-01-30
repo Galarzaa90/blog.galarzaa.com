@@ -8,7 +8,7 @@ links:
   - NabBot: https://nabbot.xyz
 ---
 
-I have been getting a bit too involved in self-hosting. I have been doing it for years, but in the last couple of months I started structuring it more seriously and following the self-hosted community more closely.
+I have been getting a bit too involved in self-hosting. I've been doing it for years, but in the last couple of months I started structuring it more seriously and following the self-hosted community more closely.
 
 <!-- more -->
 
@@ -48,7 +48,7 @@ Around that time, this side project started having an impact beyond my free time
 
 ## My first VPS
 
-Some months, after NabBot's usage skyrocketed to thousands of Discord servers, it was time to move to a proper server, something that would not die if I tripped over the power cable (or sneezed near it). So I got a *Start1-S*[^3] instance from Scaleway. It was my first time having a server. Thanks to my Raspberry Pi, I already knew about SSH, headless servers and security basics.
+Some months after NabBot's usage skyrocketed to thousands of Discord servers, it was time to move to a proper server, something that would not die if I tripped over the power cable (or sneezed near it). So I got a *Start1-S*[^3] instance from Scaleway. It was my first time having a server. Thanks to my Raspberry Pi, I already knew about SSH, headless servers and security basics.
 
 The migration consisted of moving files over SCP and repeating nearly the same setup. By this point I already knew about `venv`, and the project consisted of multiple Python applications, so the process was very similar, clone multiple repos, create their `venv` and set them up on systemd. My only monitoring tool was [Cockpit](https://cockpit-project.org/).
 
@@ -56,7 +56,9 @@ As time passed and the project kept growing, I jumped through instances and even
 
 ## Docker
 
-At some point I learned about Docker. I must admit it took me a bit to grasp the concept, but I was seeing it mentioned everywhere and figured I had to try it. I started creating Docker images for my side projects and I really liked how it worked and how it made deployment easier. I created Docker images for NabBot's applications, but I never deployed them, because I feared breaking the production environment — a fear that, in hindsight, was entirely justified — and I didn't have a proper staging environment to try it out. I did, however, deploy a couple of supporting applications using Docker.
+At some point I learned about Docker. I must admit it took me a bit to grasp the concept, but I was seeing it mentioned everywhere and figured I had to try it. I started creating Docker images for my side projects and I really liked how it worked and how it made deployment easier.
+
+I created Docker images for NabBot's applications, but I never deployed them, because I feared breaking the production environment — a fear that, in hindsight, was entirely justified — and I didn't have a proper staging environment to try it out. I did, however, deploy a couple of supporting applications using Docker.
 
 ## Migration to Kotlin
 
