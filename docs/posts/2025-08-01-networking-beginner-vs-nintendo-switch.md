@@ -70,7 +70,3 @@ Fixable? Also yes.
 And now we can play and stream in peace.
 
 For now.
-
-
-*[SSID]: Service Set Identifier — the name of a Wi-Fi network.
-*[Wi-Fi 6]: A newer Wi-Fi standard offering better performance and efficiency compared to Wi-Fi 5.

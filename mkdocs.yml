@@ -12,6 +12,10 @@ theme:
   custom_dir: overrides
   font:
     text: Noto Sans
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -37,21 +41,25 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
-    - navigation.tracking
-    - content.code.copy
-    - content.action.view
     - content.action.edit
+    - content.action.view
+    - content.code.copy
     - content.footnote.tooltips
     - content.tooltips
     - navigation.footer
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
     - search.highlight
-    - search.suggest
     - search.share
+    - search.suggest
     - toc.follow
-  icon:
-    repo: fontawesome/brands/github
+
 
 plugins:
   - blog:
@@ -92,6 +100,9 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - md_in_html
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
 
 extra:
   social:

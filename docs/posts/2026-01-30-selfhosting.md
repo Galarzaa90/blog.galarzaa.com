@@ -70,7 +70,7 @@ Since I already had more experience with Docker, and no one wants to deal with a
 
 After a couple years of development, doubts, refactors, pain and tears, the Kotlin version was finally released, *and we only had a couple hours of downtime*.
 
-One year later, we did the last migration, we moved to a *Virtual Dedicated Server*[^4]. NabBot's home has come a long way!
+One year later, we did the last migration, we moved to a *VDS*[^4]. NabBot's home has come a long way!
 
 ## Spare server
 
