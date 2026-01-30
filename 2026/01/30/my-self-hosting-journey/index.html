@@ -25,7 +25,7 @@
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../feed_rss_created.xml">
         <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
@@ -109,12 +109,13 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../.." title="Galarzaa&#39;s Blog" class="md-header__button md-logo" aria-label="Galarzaa's Blog" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -241,14 +242,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -302,7 +297,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../category/development/" class="md-tabs__link">
+        <a href="../../../../category/meta/" class="md-tabs__link">
           
   
   
@@ -317,7 +312,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -340,8 +341,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../../.." title="Galarzaa&#39;s Blog" class="md-nav__button md-logo" aria-label="Galarzaa's Blog" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../../../assets/logo.png" alt="logo">
 
     </a>
     Galarzaa's Blog
@@ -558,36 +558,6 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../../category/development/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Development
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -815,8 +785,7 @@
                           <span class="md-ellipsis">
                             in
                             
-                              <a href="../../../../category/technology/">Technology</a>, 
-                              <a href="../../../../category/development/">Development</a></span>
+                              <a href="../../../../category/technology/">Technology</a></span>
                         </div>
                       </li>
                     
@@ -891,6 +860,17 @@
   
 
 
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <span class="md-tag">Self-hosting</span>
+      
+    
+  </nav>
+
 
   
     <a href="https://github.com/Galarzaa90/blog.galarzaa.com/edit/main/docs/posts/2026-01-30-selfhosting.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
@@ -936,9 +916,9 @@
 <p>It wasn't until 2018 that I really started getting into Python when developing the early versions of <a href="https://nabbot.xyz">NabBot</a><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Of course, its first home was the Raspberry Pi, or the "shoebox" as some people called it.</p>
 <p>The deployment was very simple. At the time, I didn't know anything about Docker, so I just cloned the git repo, installed Python dependencies directly (<em>What is venv?</em>) and ran it with <code>python3 main.py</code>. The most advanced thing in my setup was using systemd so it would survive restarts.</p>
 <p>Around that time, this side project started having an impact beyond my free time. Even though I had a degree in mechatronics engineering, working on NabBot and similar projects helped me land my first software engineering job. Without really planning it, software engineering became my day-to-day work rather than just a hobby.</p>
-<h2 id="my-first-vps">My first VPS<a class="headerlink" href="#my-first-vps" title="Permanent link">&para;</a></h2>
+<h2 id="my-first-vps">My first <abbr title="Virtual Private Server">VPS</abbr><a class="headerlink" href="#my-first-vps" title="Permanent link">&para;</a></h2>
 <p>Some months after NabBot's usage skyrocketed to thousands of Discord servers, it was time to move to a proper server, something that would not die if I tripped over the power cable (or sneezed near it). So I got a <em>Start1-S</em><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> instance from Scaleway. It was my first time having a server. Thanks to my Raspberry Pi, I already knew about SSH, headless servers and security basics.</p>
-<p>The migration consisted of moving files over SCP and repeating nearly the same setup. By this point I already knew about <code>venv</code>, and the project consisted of multiple Python applications, so the process was very similar, clone multiple repos, create their <code>venv</code> and set them up on systemd. My only monitoring tool was <a href="https://cockpit-project.org/">Cockpit</a>.</p>
+<p>The migration consisted of moving files over <abbr title="Secure Copy Protocol">SCP</abbr> and repeating nearly the same setup. By this point I already knew about <code>venv</code>, and the project consisted of multiple Python applications, so the process was very similar, clone multiple repos, create their <code>venv</code> and set them up on systemd. My only monitoring tool was <a href="https://cockpit-project.org/">Cockpit</a>.</p>
 <p>As time passed and the project kept growing, I jumped through instances and even providers, trying to find the best value for performance. The migration process was still annoying, but it was getting better. I started documenting every change I made so I could follow the same steps when setting up a new server.</p>
 <h2 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h2>
 <p>At some point I learned about Docker. I must admit it took me a bit to grasp the concept, but I was seeing it mentioned everywhere and figured I had to try it. I started creating Docker images for my side projects and I really liked how it worked and how it made deployment easier.</p>
@@ -948,9 +928,9 @@
 <p>Sounds terrible, I know, but it was actually a very fun experience, it gave me a chance to rethink the project's architecture, after all, the Python version was how I learned Python, so even though there were a couple refactors there, the foundations of a beginner were still there.</p>
 <p>Since I already had more experience with Docker, and no one wants to deal with a native JRE installation, the plan was to deploy this using Docker.</p>
 <p>After a couple years of development, doubts, refactors, pain and tears, the Kotlin version was finally released, <em>and we only had a couple hours of downtime</em>.</p>
-<p>One year later, we did the last migration, we moved to a <em>Virtual Dedicated Server</em><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. NabBot's home has come a long way!</p>
+<p>One year later, we did the last migration, we moved to a <em><abbr title="Virtual Dedicated Server">VDS</abbr></em><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. NabBot's home has come a long way!</p>
 <h2 id="spare-server">Spare server<a class="headerlink" href="#spare-server" title="Permanent link">&para;</a></h2>
-<p>After the last migration, I was left with a spare VPS. I was going to get rid of it, but I was still running some random apps for tinkering purposes and I wanted to leave NabBot's server clean, so I ended up keeping this server for personal use.</p>
+<p>After the last migration, I was left with a spare <abbr title="Virtual Private Server">VPS</abbr>. I was going to get rid of it, but I was still running some random apps for tinkering purposes and I wanted to leave NabBot's server clean, so I ended up keeping this server for personal use.</p>
 <p>I kept hosting and playing with random services, and when I realized it, I was already going down the self-hosting rabbit hole, and by then it was already too late.</p>
 <p>In upcoming posts I'll talk more about my setup and the apps I use. This has all been a journey driven by curiosity and exploration.</p>
 <div class="footnote">
@@ -1040,6 +1020,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -1141,11 +1127,13 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
     
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tracking", "content.code.copy", "content.action.view", "content.action.edit", "content.footnote.tooltips", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.tabs", "search.highlight", "search.suggest", "search.share", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["content.action.edit", "content.action.view", "content.code.copy", "content.footnote.tooltips", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
