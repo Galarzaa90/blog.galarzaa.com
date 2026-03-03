@@ -34,7 +34,7 @@ data = conn.recv(1024)
 conn.send(b"hi")
 ```
 
-![My Raspberry Pi  2](../assets/images/blog/2026-01-30/baremetal.jpg)
+![My Raspberry Pi  2](../assets/images/blog/2026-01/baremetal.jpg)
 
 /// caption
 So majestic and powerful — my first “bare-metal server”.
