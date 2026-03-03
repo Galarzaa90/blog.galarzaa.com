@@ -1,4 +1,4 @@
 mkdocs-git-committers-plugin-2
 mkdocs-git-revision-date-localized-plugin
-mkdocs-material[imaging]>=9.6
+mkdocs-material[imaging]>=9.7
 mkdocs-rss-plugin
