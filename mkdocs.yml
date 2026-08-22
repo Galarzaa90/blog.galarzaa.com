@@ -47,9 +47,6 @@ theme:
     - content.footnote.tooltips
     - content.tooltips
     - navigation.footer
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
     - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
