@@ -28,6 +28,9 @@ jobs:
         run: |
           pip install --disable-pip-version-check -r requirements.txt
 
+      - name: Download selfh.st icons 🎨
+        run: bash ./selfhst_icons.sh
+
       - name: Build Mkdocs
         run: |
           mkdocs build

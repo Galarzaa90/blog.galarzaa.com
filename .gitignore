@@ -5,3 +5,6 @@ site/
 .cache/
 
 .idea/
+
+# selfh.st icons not tracked in git, but kept as a build artifact
+overrides/.icons/selfhst
