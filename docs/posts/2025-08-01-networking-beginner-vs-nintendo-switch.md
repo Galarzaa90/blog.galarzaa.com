@@ -63,7 +63,7 @@ Later that night, my wife tested Pokemon Unite again, and her lag problem was fi
 
 ## Final thoughts
 
-Turns out the real problem wasn’t bandwidth, or interference, or streaming — it was just the Switch being picky about WiFi channels.
+Turns out the real problem was just the Switch being picky about WiFi channels.
 
 Annoying? Yes.  
 Fixable? Also yes.  

@@ -6,6 +6,7 @@ categories:
 tags:
   - Windows
   - Software
+  - Tool Highlight
 ---
 
 [PowerToys](https://github.com/microsoft/PowerToys) is one of those tools that has become a must-have for me in my PC. It constantly makes me wonder... why is this not just built in into Windows?
