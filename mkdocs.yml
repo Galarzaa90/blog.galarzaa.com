@@ -8,7 +8,6 @@ repo_url: https://github.com/Galarzaa90/blog.galarzaa.com
 edit_uri: edit/main/docs/
 
 theme:
-  name: material
   custom_dir: overrides
   font:
     text: Noto Sans

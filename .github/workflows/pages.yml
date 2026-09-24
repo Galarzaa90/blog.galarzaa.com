@@ -31,9 +31,9 @@ jobs:
       - name: Download selfh.st icons 🎨
         run: bash ./selfhst_icons.sh
 
-      - name: Build Mkdocs
+      - name: Build site
         run: |
-          mkdocs build
+          zensical build --strict
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.8.0
