@@ -1,0 +1,106 @@
+[project]
+site_name = "Galarzaa's Blog"
+site_description = "Galarzaa's personal blog about random topics like software development, technology and gaming."
+site_author = "Allan Galarza"
+site_url = "https://blog.galarzaa.com"
+repo_name = "GitHub"
+repo_url = "https://github.com/Galarzaa90/blog.galarzaa.com"
+edit_uri = "edit/main/docs/"
+nav = [
+  { Home = "index.md" },
+]
+
+[project.theme]
+custom_dir = "overrides"
+font.text = "Noto Sans"
+icon.repo = "fontawesome/brands/github"
+logo = "assets/logo.png"
+favicon = "assets/favicon.ico"
+features = [
+  "content.action.edit",
+  "content.action.view",
+  "content.code.copy",
+  "content.footnote.tooltips",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.path",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "search.share",
+  "search.suggest",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "indigo"
+accent = "orange"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "indigo"
+accent = "orange"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to system preference"
+
+[project.plugins.blog]
+blog_dir = "."
+
+[project.plugins.meta]
+
+[project.plugins.rss]
+match_path = "posts/.*"
+date_from_meta.as_creation = "date"
+date_from_meta.as_update = "git"
+date_from_meta.default_timezone = "America/Phoenix"
+categories = ["categories"]
+
+[project.plugins.tags]
+
+[project.markdown_extensions]
+abbr = {}
+attr_list = {}
+"pymdownx.emoji".emoji_index = "material.extensions.emoji.twemoji"
+"pymdownx.emoji".emoji_generator = "material.extensions.emoji.to_svg"
+"pymdownx.emoji".options.custom_icons = ["overrides/.icons"]
+toc.permalink = true
+admonition = {}
+codehilite = {}
+footnotes = {}
+"pymdownx.blocks.caption" = {}
+"pymdownx.details" = {}
+"pymdownx.highlight".anchor_linenums = true
+"pymdownx.inlinehilite" = {}
+"pymdownx.keys" = {}
+"pymdownx.snippets".auto_append = ["includes/glossary.md"]
+"pymdownx.superfences" = {}
+"pymdownx.tabbed".alternate_style = true
+md_in_html = {}
+
+[[project.extra.social]]
+icon = "fontawesome/solid/globe"
+link = "https://galarzaa.com"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/Galarzaa90"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/Galarzaa/"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/threads"
+link = "https://threads.com/@galarzaa90"
